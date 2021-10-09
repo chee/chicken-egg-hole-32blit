@@ -3,6 +3,13 @@
 # References can be picked up by including assets.hpp
 
 assets.cpp:
-  assets/no-image.png:
-    name: asset_no_image
+  assets/sprites.png:
+    name: sprites
+    palette: assets/sprites.gpl
+    strict: true
+    transparent: 255,0,255
 
+  assets/map*.tmx:
+    name:
+    empty_tile: 0
+    output_struct: true
